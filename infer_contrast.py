@@ -1,5 +1,7 @@
 # create by luohao in 2022/11/28
-# hhh
+# 拉取请求可让你在 GitHub 上向他人告知你已经推送到存储库中分支的更改。 在拉取请求打开后，
+# 你可以与协作者讨论并审查潜在更改，
+# 在更改合并到基本分支之前添加跟进提交。
 
 # Pyside6是Qt6对应的官方python库，官方有较全面的使用文档：https://doc.qt.io/qtforpython/contents.html。
 import os
@@ -10,7 +12,9 @@ from PySide6.QtMultimedia import QMediaPlayer, QAudioOutput
 from PySide6.QtGui import QPixmap
 from PySide6.QtWidgets import QApplication, QMainWindow, QFileDialog
 
-# PySide6-uic demo.ui -o ui_demo.py
+# PySide6-uic demo.ui -o ui_demo.py 
+# 编译ui文件成py文件
+# 也有ui编译成cpp文件的命令行
 
 from ui_demo import Ui_MainWindow
 
