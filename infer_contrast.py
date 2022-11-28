@@ -1,3 +1,5 @@
+# create by luohao in 2022/11/28
+
 # Pyside6是Qt6对应的官方python库，官方有较全面的使用文档：https://doc.qt.io/qtforpython/contents.html。
 import os
 
